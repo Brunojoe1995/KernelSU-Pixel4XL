@@ -1,0 +1,12 @@
+name: Makefile CP
+
+on:
+  push:
+    branches: [ "Master" ]
+  pull_request:
+    branches: [ "Master" ]
+
+Build.jobs:
+  build: Andriod 14.1
+
+    runs-on-Andriod.Build:Android 14
